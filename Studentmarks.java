@@ -6,15 +6,15 @@ public class Studentmarks {
 
     public static double calculateGPA(double averageGrade) {
         if (averageGrade >= 90) {
-            return 4.0; // A
+            return 4.0;
         } else if (averageGrade >= 80) {
-            return 3.0; // B
+            return 3.0;
         } else if (averageGrade >= 70) {
-            return 2.0; // C
+            return 2.0;
         } else if (averageGrade >= 60) {
-            return 1.0; // D
+            return 1.0;
         } else {
-            return 0.0; // F
+            return 0.0;
         }
     }
     public static String getLetterGrade(double averageGrade) {
