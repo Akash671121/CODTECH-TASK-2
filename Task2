@@ -2,7 +2,7 @@ package CodTech;
 
 import java.util.Scanner;
 
-public class Studentmarks {
+public class Studentmarks{
 
     public static double calculateGPA(double averageGrade) {
         if (averageGrade >= 90) {
